@@ -2,7 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
-
+import math
 
 # 데이터 생성
 # 100개의 데이터
@@ -12,8 +12,8 @@ data = []
 
 # 100개의 y = x 그래프를 기준으로 0~1까지 오차를 가진 데이터
 for i in range(num_datas):
-    x = np.random.normal(0.0, 5.0)
-    y = x*1 + np.random.normal(0.0, 1.0)
+    x = np.random.normal(0.0, 3.0)
+    y = x*1 + np.random.normal(0.0, 1)
     data.append([x,y])
     print(i)
 
@@ -56,3 +56,4 @@ for step in range(10):
     plt.plot(x_data, sess.run(W) * x_data + sess.run(b), 'r')
     plt.legend()
     plt.show()
+
