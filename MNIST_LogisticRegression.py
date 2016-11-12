@@ -20,7 +20,7 @@ x = tf.placeholder(tf.float32, [None, 784])
 y = tf.placeholder(tf.float32, [None, 10])
 
 # Tensorflow를 이용한 작업
-# 로
+# 로지스틱 회귀
 # pred = softmax(W*X + b) = 여러개의 sigmoid 값들을 모두 더한 값으로 나누어 전체 label 확률의 합이 1이 되도록 하는 것(가장 큰 확률 Label이 선택됨)
 # W,b : weight = 0 으로 초기화
 W = tf.Variable(tf.zeros([784, 10]))
@@ -47,7 +47,7 @@ sess.run(init)
 for i in range(1000):
   # Batch Size를 설정하는 것으로 한번에 한개씩 학습하는 것이 아니라 여러 데이터 셋을 한번에 학습할 수 있다
   # 장점 :
-  # Batch Size를 설정하고 Epoch 반복마다 다음 train set을 넘겨줌
+  # Batch Size를 설정하고 반복마다 다음 train set을 넘겨줌
   batch_xs, batch_ys = mnist.train.next_batch(100)
   sess.run(train_step, feed_dict={x: batch_xs, y: batch_ys})
 

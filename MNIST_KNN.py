@@ -44,7 +44,7 @@ sess.run(init)
 
 #   테스트 케이스마다 한번씩 비교를 해주어야 한다.
 for i in range(len(test_xs)):
-    # training set에서 가장 가장 근접한 지점의 index(batch size개의 기준과 테스트 케이스를 비교
+    # training set에서 가장 가장 근접한 지점의 index(batch size개의 기준과 테스트 케이스를 비교)
     nn_index = sess.run(pred, feed_dict={x_i: batch_xs, x_e: test_xs[i, :]})
 
     #nn_index의 라벨값과 실제 라벨값을 비교한다.
