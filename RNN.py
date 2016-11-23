@@ -28,7 +28,7 @@ sample = [char_dic[c] for c in "HelloWorld"]  # to index
 # time_step_size : 출력을 반복하는 횟수 ('HelloWorl' -> predict 'elloWorld')
 rnn_size = len(char_dic)
 time_step_size = 9
-learning_rate = 0.05
+learning_rate = 0.03
 
 
 # RNN model
@@ -68,4 +68,4 @@ for i in range(100):
     result = sess.run(tf.arg_max(logits, 1))
 
     output = ''.join([char_rdic[t] for t in result])
-    print(i, "/ 100 ","H" + output)
+    print(i+1, "/ 100 ","H" + output)
