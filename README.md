@@ -3,7 +3,7 @@ ML_Practice with TensorFlow
 ========
 
 TensorFlow를 이용한 머신러닝 학습 자료 
-** 주의 ** 학습을 위한 것이므로 많은 한글 주석이 달려있습니다.
+!!!주의!!! 학습을 위한 것이므로 많은 한글 주석이 달려있습니다.
 
 ## Supervised Learning
 1. <a href="https://github.com/proauto/ML_Practice/blob/master/LinearRegression.py">Linear Regression</a>
