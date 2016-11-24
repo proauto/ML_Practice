@@ -1,3 +1,5 @@
+# reference : http://hunkim.github.io/ml/
+
 import tensorflow as tf
 import numpy as np
 
