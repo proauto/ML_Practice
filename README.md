@@ -21,6 +21,6 @@ TensorFlow를 이용한 머신러닝 공부 자료
 
 
 
-참고자료<br>
+## 참고자료<br>
 1.https://github.com/nlintz/TensorFlow-Tutorials<br>
 2.http://hunkim.github.io/ml/
