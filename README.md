@@ -6,6 +6,11 @@ TensorFlow를 이용한 머신러닝 공부 자료
 <br>
 !!!주의!!! 학습을 위한 것이므로 많은 한글 주석이 달려있습니다.
 
+## 개발 환경
+언어 - Python 3.5 
+TensorFlow
+Numpy
+
 ## 이론 정리
 https://medium.com/mathpresso
 
