@@ -6,6 +6,9 @@ TensorFlow를 이용한 머신러닝 공부 자료
 <br>
 !!!주의!!! 학습을 위한 것이므로 많은 한글 주석이 달려있습니다.
 
+## 이론 정리
+https://medium.com/mathpresso
+
 ## Supervised Learning
 1. <a href="https://github.com/proauto/ML_Practice/blob/master/LinearRegression.py">Linear Regression</a>
 2. <a href="https://github.com/proauto/ML_Practice/blob/master/LogisticRegression.py">Logistic Regression</a>
