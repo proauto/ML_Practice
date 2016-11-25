@@ -2,7 +2,7 @@
 ML_Practice with TensorFlow
 ========
 
-TensorFlow를 이용한 머신러닝 학습 자료 
+TensorFlow를 이용한 머신러닝 공부 자료 
 <br>
 !!!주의!!! 학습을 위한 것이므로 많은 한글 주석이 달려있습니다.
 
@@ -19,3 +19,7 @@ TensorFlow를 이용한 머신러닝 학습 자료
 ## Unsupervised Learning
 1. <a href="https://github.com/proauto/ML_Practice/blob/master/Clustering.py">Clustering</a>
 
+
+
+참고자료 - https://github.com/nlintz/TensorFlow-Tutorials
+       - http://hunkim.github.io/ml/
